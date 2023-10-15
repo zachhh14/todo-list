@@ -21,9 +21,15 @@ header.textContent = 'TODO LIST';
 errorMessage.textContent = 'this field is required';
 
 errorMessage.classList.add('error-message');
-submitButton.classList.add('submit-button');
-resetButton.classList.add('reset-button');
-buttonContainer.classList.add('button-container');
+submitButton.classList.add('btn');
+submitButton.classList.add('btn-primary');
+submitButton.classList.add('w-50');
+resetButton.classList.add('btn');
+resetButton.classList.add('btn-danger');
+resetButton.classList.add('w-50');
+buttonContainer.classList.add('d-flex');
+buttonContainer.classList.add('w-full');
+root.classList.add('container')
 
 root.append(header);
 root.append(form);
